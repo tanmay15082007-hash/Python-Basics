@@ -1,0 +1,107 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS D:\Python Course>
+PS D:\Python Course> python
+Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print('Hello World')
+Hello World
+>>> age = 34
+>>> print(type(age))
+<class 'int'>
+>>> art = True
+>>> print(type(art))
+<class 'bool'>
+>>> noob = str(age)
+>>> print(type(noob))
+<class 'str'>
+>>> print(type(age))
+<class 'int'>
+>>> a = input('Enter your name: ')
+Enter your name: Tanmay
+>>> print(a)
+Tanmay
+>>> b = input('Enter a number: ')
+Enter a number: 34
+>>> a = int(a)
+Traceback (most recent call last):
+  File "<python-input-11>", line 1, in <module>
+    a = int(a)
+ValueError: invalid literal for int() with base 10: 'Tanmay'
+>>> print(type(b))
+<class 'str'>
+>>> b = int(b)
+>>> print(b+3)
+37
+>>> print(b+3)
+37
+>>> a = input('Enter the first number: ')
+Enter the first number: 34
+>>> b = input('Enter the second number: ')
+Enter the second number: 15
+>>> print(a + b)
+3415
+>>> a = int(input('Enter the first number: '))
+Enter the first number: 34
+>>> print(type(a))
+<class 'int'>
+>>> b = int(input('Enter the second number: '))
+Enter the second number: 15
+>>> print(type(b))
+<class 'int'>
+>>> print(a+b)
+49
+>>> print('Hello I am Tanmay Khandelwal/nI am currently 18 years old//How are you ?')
+Hello I am Tanmay Khandelwal/nI am currently 18 years old//How are you ?
+>>> print('Hello I am Tanmay Khandelwal\nI am currently 18 years old\\How are you ?')
+Hello I am Tanmay Khandelwal
+I am currently 18 years old\How are you ?
+>>> print('Hello I am Tanmay Khandelwal\nI am currently 18 years old\nHow are you ?')
+Hello I am Tanmay Khandelwal
+I am currently 18 years old
+How are you ?
+>>> print('Hello \' I am Tanmay Khandelwal')
+Hello ' I am Tanmay Khandelwal
+>>> print('Hello I\tam TAnmay Khandelwal;')
+Hello I am TAnmay Khandelwal;
+>>> print('Hello','I','am','Tanmay','Khandelwal' sep=",")
+  File "<python-input-29>", line 1
+    print('Hello','I','am','Tanmay','Khandelwal' sep=",")
+                                    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+>>>
+>>> print('Hello','I','am','Tanmay','Khandelwal', sep=",")
+Hello,I,am,Tanmay,Khandelwal
+>>> print('Hello Tanmay','How are you ?', end='..')
+>>> o Tanmay How are you ?..
+>>> print('Hello World', end='..')
+... print('Tanmay')
+...
+Hello World..Tanmay
+>>> print('Hello World', end='..')print('Hello World', end='..')                                                                                            ... print('Tanmay')
+... print('Hello World', end='..')
+... print('Tanmay')
+... print('Hello World', end='..')
+... print('Tanmay')
+...
+...
+  File "<python-input-35>", line 2
+    print('Tanmay')                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           print('Hello World', end='..')
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ^^^^^
+SyntaxError: invalid syntax
+>>> print('Hello I am Tanmay Khandelwal', end='..')
+... print('May I know the ladies name?')
+...
+Hello I am Tanmay Khandelwal..May I know the ladies name?
+>>>
+>>> print('Hello I am Tanmay Khandelwal', end='.')
+... print('May I know the ladies name?')
+...
+Hello I am Tanmay Khandelwal.May I know the ladies name?
+>>> print('I am Tanmay Khandelwal', end='.')
+... print('May I have the pleasure of knowing young miss name?')
+...
+I am Tanmay Khandelwal.May I have the pleasure of knowing young miss name?

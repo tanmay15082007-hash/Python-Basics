@@ -1,0 +1,39 @@
+number = 15.05
+print(number)
+print(type(number))
+
+rcb = True
+print(rcb)
+print(type(rcb))
+
+calculus = 'bot'
+print(calculus)
+print(type(calculus))
+
+c = 34
+d = str(c)
+print(d)
+print(type(d))
+
+t = '15'
+u = int(t)
+print(type(u))
+print(u)
+
+t = '15'
+u = bool(t)
+print(type(u))
+print(u)
+
+c = 34
+d = bool(c)
+print(d)
+print(type(d))
+
+age = int(input('Enter your age: '))
+print(age)
+print(type(age))
+if(age>=15):
+          print('You are allowed to see this movie.')
+else:
+     print('You are underage. You are not allowed to see this kind of movies.')
