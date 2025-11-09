@@ -1,0 +1,11 @@
+a = 34
+b = 2
+
+# ARITHMETIC OPERATOR
+print('a + b = ', a + b)
+print('a - b = ', a - b)
+print('a // b = ', a // b)
+print('a ** b = ', a ** b)
+print('a % b = ', a % b) # when a is divided by b then what will be the remainder left
+print('a / b = ', a / b)
+print('a * b = ', a * b)

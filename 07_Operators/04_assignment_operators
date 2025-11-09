@@ -1,0 +1,14 @@
+a = 32
+print(a)
+a-=3
+print(a)
+
+b = 15
+print(b)
+b+=15
+print(b)
+
+c = 30
+print(c)
+c**=5
+print(c)
