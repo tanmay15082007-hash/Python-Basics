@@ -1,0 +1,15 @@
+marks = [12,14,13,11,15]
+extra_marks = [2,3,4,5,1]
+print(marks)
+marks.append(6)  # This change the list and adds 6 to it
+print(marks)
+marks.pop() # it removes the last value from list
+print(marks)
+marks.extend(extra_marks)
+print(marks)
+marks.reverse()
+print(marks)
+marks.sort()   # ascending order
+print(marks) 
+marks.remove(1)
+print(marks)
